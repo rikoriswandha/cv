@@ -195,6 +195,10 @@ hr {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    font-size: 32px;
+  }
+  
   hr {
     width: 10%;
   }
