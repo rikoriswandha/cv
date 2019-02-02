@@ -124,7 +124,7 @@ hr {
 
 /* CSS Media Queries */
 
-@media only-screen and (max-width: 576px) {
+@media screen and (min-width: 576px) {
   hr {
     width: 10%;
   }
@@ -159,7 +159,7 @@ hr {
   }
 }
 
-@media only-screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   hr {
     width: 10%;
   }
