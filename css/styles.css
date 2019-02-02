@@ -1,0 +1,195 @@
+body {
+  font-family: 'Dosis', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+a {
+  color: #f6416c;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+}
+
+a:hover {
+  color: #f8f3d4;
+}
+
+h1 {
+  color: #00b8a9;
+  font-family: 'Parisienne', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #ffde7d;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #f6416c;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #f8f3d4;
+  border-width: 5px;
+  width: 3%;
+  margin: 50px auto;
+}
+
+.top-container {
+  background-color: #f8f3d4;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  margin: 75px 0;
+}
+
+.bottom-container {
+  background-color: #00b8a9;
+  margin: 0;
+  padding: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 25%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 25%;
+  top: 50px;
+}
+
+.profile {
+  margin: auto;
+  width: 25%;
+}
+
+.skill-row {
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.home-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile-img {
+  width: 50%;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 0 auto;
+  line-height: 2;
+}
+
+.btn {
+  background-color: #00b8a9;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: #f8f3d4;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #f6416c;
+}
+
+.copyright {
+  margin: 30px auto 0;
+  color: #f8f3d4;
+}
+
+/* CSS Media Queries */
+
+@media (max-width: 576px) {
+  hr {
+    width: 10%;
+  }
+
+  a {
+    padding: 15px;
+  }
+
+  .profile {
+    width: 75%;
+  }
+
+  .contact-me {
+    width: 70%;
+  }
+
+  .skill-row {
+    width: 70%;
+    text-align: center;
+  }
+
+  .computer-img {
+    width: 50%;
+    float: none;
+    margin-right: 0;
+  }
+
+  .home-img {
+    width: 50%;
+    float: none;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  hr {
+    width: 10%;
+  }
+
+  a {
+    padding: 15px;
+  }
+
+  .profile {
+    width: 50%;
+  }
+
+  .contact-me {
+    width: 70%;
+  }
+
+  .skill-row {
+    width: 50%;
+    text-align: center;
+  }
+
+  .computer-img {
+    width: 50%;
+    float: none;
+    margin-right: 0;
+  }
+
+  .home-img {
+    width: 50%;
+    float: none;
+    margin-left: 0;
+  }
+}
