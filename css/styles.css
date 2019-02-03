@@ -1,5 +1,6 @@
 body {
   font-family: 'Dosis', sans-serif;
+  font-size: 20px;
   margin: 0;
   text-align: center;
 }
@@ -18,14 +19,14 @@ a:hover {
 h1 {
   color: #00b8a9;
   font-family: 'Parisienne', cursive;
-  font-size: 5.625em;
+  font-size: 5.625rem;
   margin: 50px auto 0 auto;
 }
 
 h2 {
   color: #ffde7d;
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5em;
+  font-size: 2.5rem;
   font-weight: normal;
 }
 
@@ -73,6 +74,7 @@ hr {
 .profile {
   margin: auto;
   width: 25%;
+  line-height: 2;
 }
 
 .skill-row {
@@ -124,7 +126,7 @@ hr {
 
 /* CSS Media Queries */
 
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   hr {
     width: 10%;
   }
@@ -159,7 +161,7 @@ hr {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   hr {
     width: 10%;
   }
